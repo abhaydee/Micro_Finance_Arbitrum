@@ -95,7 +95,7 @@ Step 3 : Run "truffle test" to test the smart contract
 
 Network : Arbitrum Goerli TestNet
 
-Deployed and Published Contract Addresses with ThirdWeb on , Goerli TestNet Network: [Link](https://thirdweb.com/dashboard/contracts/published)
+Deployed and Published Contract Addresses with ThirdWeb on , Goerli TestNet Network: [Link](https://thirdweb.com/0x915D90876db81e9140421b91db658Cd6164a7475)
 
 ## Future Goals
 
