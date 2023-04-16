@@ -1,25 +1,25 @@
 {
   "contractName": "ContractNames",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.0+commit.26b70077\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/container/ContractNames.sol\":\"ContractNames\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/container/ContractNames.sol\":{\"keccak256\":\"0x55c3f194bb21923774f331b42ca974b3d72c6bb79d719396b1711b70359dea39\",\"urls\":[\"bzz-raw://7af35580a80b7bd87845e38661cb01336dcb70a4f91b7df893e58b629a3b4cde\",\"dweb:/ipfs/QmTeuzujwS62ygqrhrpbNtDkVmwT1pmWtSjAjEnNoJpTo4\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212200036cb1dd82c2384457883d8fa08d135940dc4f5df460bb73193b3bfc22ef6d664736f6c63430006000033",
-  "deployedBytecode": "0x6080604052600080fdfea26469706673582212200036cb1dd82c2384457883d8fa08d135940dc4f5df460bb73193b3bfc22ef6d664736f6c63430006000033",
-  "sourceMap": "26:239:6:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:239:6;;;;;;;",
-  "deployedSourceMap": "26:239:6:-:0;;;;;",
-  "source": "pragma solidity ^0.6.0;\n\n\ncontract ContractNames {\n    string constant CONTRACT_LOAN_MANAGER = \"LoanManager\";\n    string constant CONTRACT_WALLET = \"Wallet\";\n    string constant CONTRACT_LOAN_DB = \"LoanDB\";\n    string constant CONTRACT_HEART_TOKEN = \"HeartToken\";\n}\n",
-  "sourcePath": "/Users/abhaydeshpande/Documents/microfinance-dapp/contracts/container/ContractNames.sol",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.0+commit.26b70077\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"author\":\"abhaydeshpande\",\"details\":\"defines constant strings representing the names of other contracts in the system.\",\"methods\":{},\"title\":\"ContractNames\"},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/container/ContractNames.sol\":\"ContractNames\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/container/ContractNames.sol\":{\"keccak256\":\"0x4f7131d91c727745499417c92ec19656b766d00127320df8077dfbeb8257ff5a\",\"urls\":[\"bzz-raw://d404b0008427e4f7ff543f1f8c3d1aa7aca3638a4bb20fa5679c2e136e707f75\",\"dweb:/ipfs/QmUmRRW4wfxPZykvsQKK4PQQ5SDcFhLAzM8tFbPrAvXwb2\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220fc9ab1fb710212ee2cf27558e35e3554f37862798825f0d121ad3b54c2a7c8b964736f6c63430006000033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220fc9ab1fb710212ee2cf27558e35e3554f37862798825f0d121ad3b54c2a7c8b964736f6c63430006000033",
+  "sourceMap": "208:239:6:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;208:239:6;;;;;;;",
+  "deployedSourceMap": "208:239:6:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.6.0;\n\n/**\n    @title ContractNames\n    @dev defines constant strings representing the names of other contracts in the system.\n    @author abhaydeshpande\n */\ncontract ContractNames {\n    string constant CONTRACT_LOAN_MANAGER = \"LoanManager\";\n    string constant CONTRACT_WALLET = \"Wallet\";\n    string constant CONTRACT_LOAN_DB = \"LoanDB\";\n    string constant CONTRACT_HEART_TOKEN = \"HeartToken\";\n}\n",
+  "sourcePath": "/Users/abhaydeshpande/Documents/micro_finance_arbitrum/contracts/container/ContractNames.sol",
   "ast": {
     "absolutePath": "project:/contracts/container/ContractNames.sol",
     "exportedSymbols": {
       "ContractNames": [
-        435
+        496
       ]
     },
-    "id": 436,
+    "id": 497,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 422,
+        "id": 483,
         "literals": [
           "solidity",
           "^",
@@ -27,30 +27,30 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:6"
+        "src": "32:23:6"
       },
       {
         "abstract": false,
         "baseContracts": [],
         "contractDependencies": [],
         "contractKind": "contract",
-        "documentation": null,
+        "documentation": "@title ContractNames\n@dev defines constant strings representing the names of other contracts in the system.\n@author abhaydeshpande",
         "fullyImplemented": true,
-        "id": 435,
+        "id": 496,
         "linearizedBaseContracts": [
-          435
+          496
         ],
         "name": "ContractNames",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": true,
-            "id": 425,
+            "id": 486,
             "name": "CONTRACT_LOAN_MANAGER",
             "nodeType": "VariableDeclaration",
             "overrides": null,
-            "scope": 435,
-            "src": "55:53:6",
+            "scope": 496,
+            "src": "237:53:6",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -58,10 +58,10 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 423,
+              "id": 484,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "55:6:6",
+              "src": "237:6:6",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string"
@@ -70,14 +70,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "4c6f616e4d616e61676572",
-              "id": 424,
+              "id": 485,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "95:13:6",
+              "src": "277:13:6",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_stringliteral_5abf8f18cd2250f0e913a42d02d425f52ecab18635cec6156973ec60716bcdc8",
@@ -89,12 +89,12 @@
           },
           {
             "constant": true,
-            "id": 428,
+            "id": 489,
             "name": "CONTRACT_WALLET",
             "nodeType": "VariableDeclaration",
             "overrides": null,
-            "scope": 435,
-            "src": "114:42:6",
+            "scope": 496,
+            "src": "296:42:6",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -102,10 +102,10 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 426,
+              "id": 487,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "114:6:6",
+              "src": "296:6:6",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string"
@@ -114,14 +114,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "57616c6c6574",
-              "id": 427,
+              "id": 488,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "148:8:6",
+              "src": "330:8:6",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_stringliteral_cfe1633df53a0649d88d788961f26058c5e7a0b5644675f19f67bb2975827ba2",
@@ -133,12 +133,12 @@
           },
           {
             "constant": true,
-            "id": 431,
+            "id": 492,
             "name": "CONTRACT_LOAN_DB",
             "nodeType": "VariableDeclaration",
             "overrides": null,
-            "scope": 435,
-            "src": "162:43:6",
+            "scope": 496,
+            "src": "344:43:6",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -146,10 +146,10 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 429,
+              "id": 490,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "162:6:6",
+              "src": "344:6:6",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string"
@@ -158,14 +158,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "4c6f616e4442",
-              "id": 430,
+              "id": 491,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "197:8:6",
+              "src": "379:8:6",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_stringliteral_ede5ff3a1d4c35813414b589e6a3db56bd253082258481516c01c97f76c934ff",
@@ -177,12 +177,12 @@
           },
           {
             "constant": true,
-            "id": 434,
+            "id": 495,
             "name": "CONTRACT_HEART_TOKEN",
             "nodeType": "VariableDeclaration",
             "overrides": null,
-            "scope": 435,
-            "src": "211:51:6",
+            "scope": 496,
+            "src": "393:51:6",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -190,10 +190,10 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 432,
+              "id": 493,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "211:6:6",
+              "src": "393:6:6",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string"
@@ -202,14 +202,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "4865617274546f6b656e",
-              "id": 433,
+              "id": 494,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "250:12:6",
+              "src": "432:12:6",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_stringliteral_742e1fb83c1768c130c5a5c95176057a210e3aa832e57abcbe89b323a7630b26",
@@ -220,18 +220,18 @@
             "visibility": "internal"
           }
         ],
-        "scope": 436,
-        "src": "26:239:6"
+        "scope": 497,
+        "src": "208:239:6"
       }
     ],
-    "src": "0:266:6"
+    "src": "32:416:6"
   },
   "legacyAST": {
     "attributes": {
       "absolutePath": "project:/contracts/container/ContractNames.sol",
       "exportedSymbols": {
         "ContractNames": [
-          435
+          496
         ]
       }
     },
@@ -245,9 +245,9 @@
             ".0"
           ]
         },
-        "id": 422,
+        "id": 483,
         "name": "PragmaDirective",
-        "src": "0:23:6"
+        "src": "32:23:6"
       },
       {
         "attributes": {
@@ -259,13 +259,13 @@
             null
           ],
           "contractKind": "contract",
-          "documentation": null,
+          "documentation": "@title ContractNames\n@dev defines constant strings representing the names of other contracts in the system.\n@author abhaydeshpande",
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            435
+            496
           ],
           "name": "ContractNames",
-          "scope": 436
+          "scope": 497
         },
         "children": [
           {
@@ -273,7 +273,7 @@
               "constant": true,
               "name": "CONTRACT_LOAN_MANAGER",
               "overrides": null,
-              "scope": 435,
+              "scope": 496,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "string",
@@ -285,9 +285,9 @@
                   "name": "string",
                   "type": "string"
                 },
-                "id": 423,
+                "id": 484,
                 "name": "ElementaryTypeName",
-                "src": "55:6:6"
+                "src": "237:6:6"
               },
               {
                 "attributes": {
@@ -302,21 +302,21 @@
                   "type": "literal_string \"LoanManager\"",
                   "value": "LoanManager"
                 },
-                "id": 424,
+                "id": 485,
                 "name": "Literal",
-                "src": "95:13:6"
+                "src": "277:13:6"
               }
             ],
-            "id": 425,
+            "id": 486,
             "name": "VariableDeclaration",
-            "src": "55:53:6"
+            "src": "237:53:6"
           },
           {
             "attributes": {
               "constant": true,
               "name": "CONTRACT_WALLET",
               "overrides": null,
-              "scope": 435,
+              "scope": 496,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "string",
@@ -328,9 +328,9 @@
                   "name": "string",
                   "type": "string"
                 },
-                "id": 426,
+                "id": 487,
                 "name": "ElementaryTypeName",
-                "src": "114:6:6"
+                "src": "296:6:6"
               },
               {
                 "attributes": {
@@ -345,21 +345,21 @@
                   "type": "literal_string \"Wallet\"",
                   "value": "Wallet"
                 },
-                "id": 427,
+                "id": 488,
                 "name": "Literal",
-                "src": "148:8:6"
+                "src": "330:8:6"
               }
             ],
-            "id": 428,
+            "id": 489,
             "name": "VariableDeclaration",
-            "src": "114:42:6"
+            "src": "296:42:6"
           },
           {
             "attributes": {
               "constant": true,
               "name": "CONTRACT_LOAN_DB",
               "overrides": null,
-              "scope": 435,
+              "scope": 496,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "string",
@@ -371,9 +371,9 @@
                   "name": "string",
                   "type": "string"
                 },
-                "id": 429,
+                "id": 490,
                 "name": "ElementaryTypeName",
-                "src": "162:6:6"
+                "src": "344:6:6"
               },
               {
                 "attributes": {
@@ -388,21 +388,21 @@
                   "type": "literal_string \"LoanDB\"",
                   "value": "LoanDB"
                 },
-                "id": 430,
+                "id": 491,
                 "name": "Literal",
-                "src": "197:8:6"
+                "src": "379:8:6"
               }
             ],
-            "id": 431,
+            "id": 492,
             "name": "VariableDeclaration",
-            "src": "162:43:6"
+            "src": "344:43:6"
           },
           {
             "attributes": {
               "constant": true,
               "name": "CONTRACT_HEART_TOKEN",
               "overrides": null,
-              "scope": 435,
+              "scope": 496,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "string",
@@ -414,9 +414,9 @@
                   "name": "string",
                   "type": "string"
                 },
-                "id": 432,
+                "id": 493,
                 "name": "ElementaryTypeName",
-                "src": "211:6:6"
+                "src": "393:6:6"
               },
               {
                 "attributes": {
@@ -431,24 +431,24 @@
                   "type": "literal_string \"HeartToken\"",
                   "value": "HeartToken"
                 },
-                "id": 433,
+                "id": 494,
                 "name": "Literal",
-                "src": "250:12:6"
+                "src": "432:12:6"
               }
             ],
-            "id": 434,
+            "id": 495,
             "name": "VariableDeclaration",
-            "src": "211:51:6"
+            "src": "393:51:6"
           }
         ],
-        "id": 435,
+        "id": 496,
         "name": "ContractDefinition",
-        "src": "26:239:6"
+        "src": "208:239:6"
       }
     ],
-    "id": 436,
+    "id": 497,
     "name": "SourceUnit",
-    "src": "0:266:6"
+    "src": "32:416:6"
   },
   "compiler": {
     "name": "solc",
@@ -456,9 +456,12 @@
   },
   "networks": {},
   "schemaVersion": "3.4.13",
-  "updatedAt": "2023-04-01T17:19:14.898Z",
+  "updatedAt": "2023-04-16T06:45:11.888Z",
   "devdoc": {
-    "methods": {}
+    "author": "abhaydeshpande",
+    "details": "defines constant strings representing the names of other contracts in the system.",
+    "methods": {},
+    "title": "ContractNames"
   },
   "userdoc": {
     "methods": {}
